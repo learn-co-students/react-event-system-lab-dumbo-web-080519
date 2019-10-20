@@ -1,1 +1,13 @@
 // Code EyesOnMe Component Here
+import React from 'react'
+
+const EyesOnMe = (props) => {
+    return (
+        <button 
+            onFocus={() => console.log('Good!')}
+            onBlur={() => console.log('Hey! Eyes on me!')} 
+        />
+    )
+}
+
+export default EyesOnMe
